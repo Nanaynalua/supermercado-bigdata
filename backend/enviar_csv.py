@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-df = pd.read_csv("vendas.csv")
+df = pd.read_csv("SampleSuperstore.csv")
 
 # Substitui NaN por string vazia
 df = df.fillna("")
